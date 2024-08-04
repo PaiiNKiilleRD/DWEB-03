@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <script src="https://code.iconify.design/iconify-icon/2.1.0/iconify-icon.min.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejemplo de Elementos HTML</title>
@@ -25,6 +26,11 @@
             background-color: #f6f6f6;
             box-shadow: 2px #00796b;
         }
+        .section .link {
+            display: flex;
+             align-items: center;
+             justify-content: center;
+        }
         h1, h2 {
             color: #00796b; /* Color verde oscuro */
         }
@@ -39,6 +45,11 @@
         }
         .section {
             margin-bottom: 40px; /* Espacio entre secciones */
+        }
+        a {
+            text-decoration: none;
+            font-size: 32px;
+            color: #09f;
         }
     </style>
 </head>
@@ -69,13 +80,13 @@
         <!-- Sección c. Insertar una imagen -->
         <div class="section">
             <h1>Insertar una Imagen</h1>
-            <img src="https://via.placeholder.com/800x400" alt="Ejemplo de Imagen">
+            <img src="https://unavatar.io/unknown" alt="Ejemplo de Imagen">
         </div>
 
         <!-- Sección d. Insertar un enlace -->
-        <div class="section">
+        <div class="section ">
             <h1>Insertar un Enlace</h1>
-            <p><a href="https://www.ejemplo.com" target="_blank">Visita nuestro sitio web</a></p>
+            <a href="https://github.com/PaiiNKiilleRD" class="link">Visita mi Github <iconify-icon icon="mdi:github"></iconify-icon></a></p>
         </div>
 
         <!-- Sección e. Insertar un audio -->
