@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de Elementos HTML</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e0f7fa; /* Azul claro */
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .section {
+            margin: 10px 0;
+            padding: 12px ;
+            border-radius: 10px;
+            background-color: #f6f6f6;
+            box-shadow: 2px #00796b;
+        }
+        h1, h2 {
+            color: #00796b; /* Color verde oscuro */
+        }
+        p {
+            margin: 20px 0;
+        }
+        img, video {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+        .section {
+            margin-bottom: 40px; /* Espacio entre secciones */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Sección a. Una estructura de texto -->
+        <div class="section">
+            <h1>Estructura de Texto</h1>
+            <h2>Título del Texto</h2>
+            <p>Introducción: Aquí introducimos el tema y proporcionamos el contexto necesario para entender el texto.</p>
+            <p>Cuerpo:</p>
+            <p><strong>Párrafo 1:</strong> Desarrollo del primer punto importante.</p>
+            <p><strong>Párrafo 2:</strong> Desarrollo del segundo punto importante.</p>
+            <p>Conclusión: Resumen de los puntos clave y reflexión final.</p>
+        </div>
+
+        <!-- Sección b. Una lista ordenada -->
+        <div class="section">
+            <h1>Lista Ordenada</h1>
+            <ol>
+                <li>Primer elemento</li>
+                <li>Segundo elemento</li>
+                <li>Tercer elemento</li>
+                <li>Cuarto elemento</li>
+            </ol>
+        </div>
+
+        <!-- Sección c. Insertar una imagen -->
+        <div class="section">
+            <h1>Insertar una Imagen</h1>
+            <img src="https://via.placeholder.com/800x400" alt="Ejemplo de Imagen">
+        </div>
+
+        <!-- Sección d. Insertar un enlace -->
+        <div class="section">
+            <h1>Insertar un Enlace</h1>
+            <p><a href="https://www.ejemplo.com" target="_blank">Visita nuestro sitio web</a></p>
+        </div>
+
+        <!-- Sección e. Insertar un audio -->
+        <div class="section">
+            <h1>Insertar un Audio</h1>
+            <audio controls>
+                <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mp3">
+                Tu navegador no soporta el elemento <code>audio</code>.
+            </audio>
+        </div>
+
+        <!-- Sección f. Insertar un video -->
+        <div class="section">
+            <h1>Insertar un Video</h1>
+            <video controls>
+                <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                Tu navegador no soporta el elemento <code>video</code>.
+            </video>
+        </div>
+    </div>
+</body>
+</html>
